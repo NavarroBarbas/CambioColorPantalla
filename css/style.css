@@ -13,7 +13,24 @@
 }
 
 /* ******************************** */
-
 /* Colores */
-
 /* ******************************** */
+/* GENERAL */
+/* MOVIL */
+html {
+  background-color: #8C1F66;
+}
+
+/* TABLET */
+@media  screen and (min-width: 768px) {
+  html {
+    background-color: #33A6A6;
+  }
+}
+
+/* DESKTOP */
+@media  screen and (min-width: 1080px) {
+  html {
+    background-color: #F25041;
+  }
+}
